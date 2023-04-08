@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+* {
+font-size: 24px;
+	font-weight: bold;
+}
+h1 {
+font-size: 36px;}
+.container {
+	height: 20vh;
+	display: flex;
+	margin: 20px;
+}
+.card {
+	
+	background: whitesmoke;
+	width: 40%;
+	height: 500%;
+	text-align: center;
+	overflow: hidden;
+	padding: 20px;
+	box-border: 1em 1em 0.5em black;
+}
+.img-card {
+	posiiton: float;
+	left: 50%;
+}
+img {
+	overflow: hidden;
+    width: 100%;
+	aspect-ratio: 1/1;
+}
+button {
+background: pink;
+	height: 55px;
+	color: white;
+border-radius: 15px;}
